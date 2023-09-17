@@ -1,0 +1,35 @@
+.host-container{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+    width: 100px;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.host-name{
+    color: #FF6060;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.host-picture{
+    width: 90%;
+    height: 100%;
+    border-radius: 70px;
+    
+}
+@media screen and (max-width: 769px) {
+
+    .host-picture{
+        width: 70%;
+    }
+    .host-name{
+        font-size: 14px;
+    }
+    .host-container{
+        margin: 0;
+        padding-right: 30px;
+    }
+}

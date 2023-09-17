@@ -1,0 +1,41 @@
+body, html{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+
+
+}
+.pFooter{
+    display: flex;
+    font-size: 23px;
+}
+@media screen and (max-width: 769px) {
+    div .footer{
+        display: flex;
+       
+    }
+    .footer img{
+        width: auto;
+    }
+    .pFooter{
+        font-size:12px ;
+    }
+}

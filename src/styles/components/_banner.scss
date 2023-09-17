@@ -1,0 +1,40 @@
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 150px;
+  padding: 30px;
+  margin-bottom: 35px;
+  position: relative;
+  }
+  .bannerH1{
+      position: absolute;
+      font-size: 50px;
+      color: white;
+      z-index: 2;
+  }
+  .bannerImage{
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+    filter: brightness(80%);
+    
+  }
+  @media screen and (max-width: 769px) {
+    .banner{
+      width: auto;
+    }
+    .bannerH1{
+      font-size: 25px;
+      width: 60%;
+      left: 40px;
+    }
+    .bannerImage{
+    height: 223px;
+    }
+    
+  }
+  

@@ -1,0 +1,52 @@
+.carousel{
+    width: auto;
+    margin: 0 15px 0 15px;
+    position: relative;
+    height: 415px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 25px;
+    
+
+}
+.leftarrow{
+    position: absolute;
+    left: 70px;
+    width: 50px;
+}
+.rightarrow{
+    position: absolute;
+    right: 70px;
+    width: 50px;
+}
+.logementimage{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.countDisplay{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    bottom: 0px;
+}
+@media screen and (max-width: 769px) {
+    .carousel{
+    width: auto ;
+    margin: 0 15px 0 15px;
+    height: 325px;
+}
+.leftarrow{
+    left: 10px;
+    width: 20px;
+}
+.rightarrow{
+    width: 20px;
+    right: 10px;
+}
+.countDisplay{
+    font-size: 16px;
+}
+}
